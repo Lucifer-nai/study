@@ -1,0 +1,39 @@
+<!--
+ * @Author: your name
+ * @Date: 2021-05-12 18:35:20
+ * @LastEditTime: 2021-10-26 11:07:35
+ * @LastEditors: lingtong
+ * @Description: In User Settings Edit
+ * @FilePath: \study\类和propotype.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+<script>
+    function Obj() {
+
+    }
+    Obj.a = 1
+    Obj.d = 4
+    Obj.prototype.a = 2
+    var c = new Obj();
+
+    console.log(c.a) //2
+    console.log(c.d) //undefined
+
+    console.log(Obj.a) //1
+    console.log(Obj.d) //4
+
+</script>
+
+</html>
